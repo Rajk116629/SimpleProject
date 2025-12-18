@@ -5,7 +5,7 @@ import org.openqa.selenium.chrome.ChromeDriver;
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeMethod;
 
-public class baseClass {
+public class BaseClass {
 	
 	protected WebDriver driver;
 	
@@ -22,7 +22,7 @@ public class baseClass {
 	@AfterMethod
 	public void tearDown()
 	{
-		//driver.quit();
+		driver.quit();
 	}
 
 }

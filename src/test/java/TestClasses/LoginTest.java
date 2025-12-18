@@ -3,10 +3,10 @@ package TestClasses;
 import org.testng.Assert;
 import org.testng.annotations.Test;
 
-import BaseClass.baseClass;
+import BaseClass.BaseClass;
 import PageClasses.LoginPage;
 
-public class LoginTest extends baseClass{
+public class LoginTest extends BaseClass{
 	
 	
 	@Test(priority=2)
